@@ -42,5 +42,31 @@ public class Main {
         // Show that each object has its own data
         System.out.println(customer1);
         System.out.println(customer2);
-    }
-}
+
+
+        System.out.println();
+        System.out.println("""
+               ==============================
+               Exercise 3
+               ==============================
+                """);
+
+
+                Student student1 = new Student(1, "Harry Potter", 17, "Defense Against the Dark Arts");
+                Student student2 = new Student(2, "Hermione Granger", 17, "Potions");
+                Student student3 = new Student(3, "Ron Weasley", 17, "Care of Magical Creatures");
+                Student student4 = new Student(4, "Luna Lovegood", 16, "Divination");
+
+                // Optional: Update data safely
+                student4.setMajor("Magical Creatures & Divination");
+
+                // Show that each object represents a unique student
+                System.out.println(student1);
+                System.out.println(student2);
+                System.out.println(student3);
+                System.out.println(student4);
+            }
+        }
+
+
+
