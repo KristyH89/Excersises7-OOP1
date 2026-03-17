@@ -59,3 +59,20 @@ public class BankAccount {
         }
     }
 }
+
+/*
++----------------------+
+|     BankAccount      |
++----------------------+
+| - accountHolder: String |
+| - balance: double       |
++----------------------+
+| + BankAccount(accountHolder, balance)   |
+| + getAccountHolder(): String            |
+| + getBalance(): double                  |
+| + setAccountHolder(accountholder): void |
+| + deposit(double amount): void          |
+| + withdraw(double amount): void         |
++----------------------+
+
+ */
