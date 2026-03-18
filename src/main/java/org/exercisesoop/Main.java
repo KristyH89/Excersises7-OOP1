@@ -65,6 +65,28 @@ public class Main {
                 System.out.println(student2);
                 System.out.println(student3);
                 System.out.println(student4);
+
+
+
+        System.out.println();
+        System.out.println("""
+               ==============================
+               Exercise 4
+               ==============================
+                """);
+
+        Product product1 = new Product(1, "Foodprocessor", 149.99);
+        Product product2 = new Product(2,"Slowcooker", 99);
+        Product product3 = new Product(3, "Rice cooker", 99);
+
+        // Optional: Sale price
+        product3.setPrice(74.99);
+
+
+        System.out.println(product1);
+        System.out.println(product2);
+        System.out.println(product3);
+
             }
         }
 
