@@ -109,6 +109,10 @@ public class Main {
         System.out.println(order2);
 
 
+        System.out.println();
+        System.out.println("===============================");
+        System.out.println("That was the last exercise! Have a nice day!");
+        System.out.println("==============================");
             }
         }
 
