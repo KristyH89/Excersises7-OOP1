@@ -87,6 +87,28 @@ public class Main {
         System.out.println(product2);
         System.out.println(product3);
 
+
+        System.out.println();
+        System.out.println("===============================");
+        System.out.println("Exercise 5");
+        System.out.println("===============================");
+
+
+        // Orders
+        Order order1 = new Order(101);
+        Order order2 = new Order(102);
+
+        // Add products to orders
+        order1.addProduct(product1);
+        order1.addProduct(product2);
+
+        order2.addProduct(product3);
+
+        // Show results
+        System.out.println(order1);
+        System.out.println(order2);
+
+
             }
         }
 
