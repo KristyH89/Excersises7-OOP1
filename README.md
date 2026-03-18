@@ -5,8 +5,8 @@ UML Class Diagrams
 ```mermaid
 classDiagram
     class BankAccount {
-        - accountHolder String
-        - balance double
+        - accountHolder: String
+        - balance: double
         + BankAccount(accountHolder String, balance double)
         + getAccountHolder() String
         + getBalance() double
@@ -21,9 +21,9 @@ classDiagram
 ```mermaid
 classDiagram
 class Customer {
-- customerId int
-- name String
-- email String           
+- customerId: int
+- name: String
+- email: String           
 + Customer(id, name, email) 
 + getCustomerId() int    
 + getName() String       
@@ -61,8 +61,8 @@ class Customer {
 ```mermaid
 classDiagram
 class Product {
- - productId int
- - productName String   
+ - productId: int
+ - productName: String   
  - price: double         
  + Product( id, productName, price)  
  + getProductId() int               
